@@ -12,7 +12,7 @@ body{
 	/*overflow: hidden;*/
 	box-sizing: border-box;
 	background: #000;
-	opacity: .8;
+	opacity: 1;
 	margin: 0;
 	padding: 0;	
 }
@@ -24,7 +24,7 @@ body{
 	padding: 0px;
 	justify-content: space-between;
 	align-items: center;
-	background: #000;
+	background: #fff;
 	opacity: 1;
 	position: fixed;
 	width: 100%;
@@ -34,7 +34,7 @@ body{
 
 header{
 	margin: 20px;
-	color: #fff;
+	color: #000;
 	font-size: 22px;
 	font-family: 'PT Serif', serif;
 }
@@ -55,7 +55,7 @@ header{
 .nav-links li{
 	list-style: none;
 	margin: 20px;
-	color: white;
+	
 
 }
 
@@ -63,7 +63,7 @@ header{
 	text-decoration: none;
 	font-size: 22px;
 	font-family: 'PT Serif', serif;
-	color: #fff;
+	color: #000;
 }
 
 .right-hand ul{
@@ -74,13 +74,13 @@ header{
 
 .right-hand li{
 	list-style: none;
-	margin: 10px;
+	margin: 20px;
 	
 
 }
 
 .right-hand li a i{
-	color: #fff;
+	color: #000;
 	cursor: pointer;
 	font-size: 18px;
 }

@@ -23,8 +23,8 @@ body{
 	padding: 0;
 	justify-content: space-between;
 	align-items: center;
-	background: #fff;
-	opacity: 1;
+	background: rgba(225, 225, 225, .6);
+	/*opacity: 1;*/
 	position: fixed;
 	width: 100%;
 	color: #000;

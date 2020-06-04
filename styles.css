@@ -24,8 +24,8 @@ body{
 	padding: 0px;
 	justify-content: space-between;
 	align-items: center;
-	background: #fff;
-	opacity: 1;
+	background: rgba(225, 225, 225, .6);
+	/*opacity: 1;*/
 	position: fixed;
 	width: 100%;
 	height: 12vh;
@@ -287,7 +287,7 @@ section p{
 	display: none;
 }
 
-.focus .tour{
+.focus, .tour{
 	display: none;
 }
 
@@ -309,7 +309,7 @@ section p{
 	top: -80px;
 	width: 280px;
 	height: 120%;
-	background: rgba(0, 0, 0, .7);
+	background: rgba(0, 0, 0, 1);
 	color: #fff;
 	z-index: 1000;	
 
@@ -430,10 +430,10 @@ div #cancel{
 		font-weight: bold;
 	}
 
-	main{
-		min-height: 100vh;
-		background: linear-gradient(to left, #159957, #155799);
-		z-index: 1000;
+	main {
+		min-height: 80vh;
+		width: 300px;
+		z-index: -2;
 	}
 
 
@@ -442,8 +442,8 @@ div #cancel{
 		width: 90%;
 		height: 90%;
 		position: relative;
-		top: 150px;
-		left: 35px;
+		top: 140px;
+		left: 80px;
 		color: #FFF;
 		z-index: 2;
 		font-size: 1.7rem;
@@ -455,29 +455,31 @@ div #cancel{
 		color: blue;
 	}
 
-	.focus{
+	.focus {
 		display: block;
-		position: absolute;
+		position: relative;
 		color: #fff;
-		top: 220px;
-		left: 30px;
+		width: 300px;
+		margin-top: 170px;
+		margin-left: 40px;
 		font-size: 1.5rem;
 		font-family: 'PT Serif', serif;
-
 	}
 
 	.intro{
 		display: none;
 	}
 
-	.tour{
+	.tour {
 		background: #43cea2;
 		color: #fff;
 		text-transform: uppercase;
 		display: block;
 		position: absolute;
 		top: 380px;
-		left: 90px;
+		left: 75px;
+		width: 50%;
+		text-align: center;
 		font-size: 1rem;
 		font-family: 'PT Serif', serif;
 		border: 2px solid #000;
@@ -486,6 +488,7 @@ div #cancel{
 		cursor: pointer;
 
 	}
+
 
 	.tour:hover{
 		background: #283c86;
@@ -497,12 +500,18 @@ div #cancel{
 		width: 300px;
 		height: 300px;
 		position: relative;
-		top: -120px;
+		top: 20px;
 		left: -500px;
-		z-index: -2;
 		border-radius: 5px;
+		
 	}
-	span{
+
+	section{
+		display: block;
+		width: 300px;
+		height: 300px;
+	}
+	.number{
 		display: none;
 		
 	}
@@ -530,11 +539,12 @@ div #cancel{
 	}
 	
    section p{
-		z-index: -2;
+		display: block;
+		position: absolute;
 		margin-left: -135px;
-		margin-top: 730px;
+		margin-top: 710px;
 		font-size: 14px;
-		width: 85%;
+		width: 80%;
 
 	}
 	.stand  {
@@ -563,19 +573,6 @@ div #cancel{
 		margin-bottom: 10px;
 		width: 30%;
 	}
-/*
-	main p{
-		display: block;
-		position: absolute;
-		color: #0E04D1;
-		top: 180px;
-		left: 25px;
-		font-size: 1.5rem;
-		font-weight: bold;
-		font-family: 'PT Serif', serif;
-	}*/
-
-	
 
 	.wrapper {
 

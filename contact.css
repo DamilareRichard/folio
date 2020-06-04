@@ -24,7 +24,7 @@ body{
 	padding: 0;
 	justify-content: space-between;
 	align-items: center;
-	background: #fff;
+	background: rgba(225, 225, 225, .6);
 	color: #000;
 	opacity: 1;
 	position: fixed;

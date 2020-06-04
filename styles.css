@@ -470,7 +470,7 @@ div #cancel{
 		display: none;
 	}
 
-	.tour {
+	main a {
 		background: #43cea2;
 		color: #fff;
 		text-transform: uppercase;
@@ -479,6 +479,7 @@ div #cancel{
 		top: 380px;
 		left: 75px;
 		width: 50%;
+		text-decoration: none;
 		text-align: center;
 		font-size: 1rem;
 		font-family: 'PT Serif', serif;
@@ -490,7 +491,7 @@ div #cancel{
 	}
 
 
-	.tour:hover{
+	main a:hover{
 		background: #283c86;
 		color: #f43e21;
 
